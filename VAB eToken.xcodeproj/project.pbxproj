@@ -1,0 +1,885 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B72D612C249B645900117D3D /* TabBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D612B249B645900117D3D /* TabBaseViewController.swift */; };
+		B72D612E24A1BF2F00117D3D /* QRScannerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D612D24A1BF2F00117D3D /* QRScannerController.swift */; };
+		B72D613024A1C0AE00117D3D /* CameraFocusFinder.swift in Sources */ = {isa = PBXBuildFile; fileRef = B72D612F24A1C0AE00117D3D /* CameraFocusFinder.swift */; };
+		B72D613A24A1D4AE00117D3D /* EzioMobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B72D613124A1CED100117D3D /* EzioMobile.framework */; };
+		B7650DA62491DBEC0043D272 /* CreatePassController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DA52491DBEC0043D272 /* CreatePassController.swift */; };
+		B7650DA82491DCBD0043D272 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DA72491DCBD0043D272 /* BaseViewController.swift */; };
+		B7650DAB2491DDA80043D272 /* ProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DA92491DDA80043D272 /* ProgressView.swift */; };
+		B7650DAE2491EF4B0043D272 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DAD2491EF4B0043D272 /* LoginController.swift */; };
+		B7650DB02491F4A60043D272 /* OtpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DAF2491F4A60043D272 /* OtpController.swift */; };
+		B7650DB22491F5280043D272 /* NormalOtpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DB12491F5280043D272 /* NormalOtpController.swift */; };
+		B7650DB42491F5860043D272 /* SignatureOtpController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7650DB32491F5860043D272 /* SignatureOtpController.swift */; };
+		B7650DB6249208C00043D272 /* clear.png in Resources */ = {isa = PBXBuildFile; fileRef = B7650DB5249208C00043D272 /* clear.png */; };
+		B792186F248A2C9E001F2ED6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B792186E248A2C9E001F2ED6 /* AppDelegate.swift */; };
+		B7921873248A2C9E001F2ED6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7921872248A2C9E001F2ED6 /* ViewController.swift */; };
+		B7921876248A2C9E001F2ED6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7921874248A2C9E001F2ED6 /* Main.storyboard */; };
+		B7921878248A2CA0001F2ED6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B7921877248A2CA0001F2ED6 /* Assets.xcassets */; };
+		B792187B248A2CA0001F2ED6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B7921879248A2CA0001F2ED6 /* LaunchScreen.storyboard */; };
+		B7921886248A2CA0001F2ED6 /* VAB_eTokenTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7921885248A2CA0001F2ED6 /* VAB_eTokenTests.swift */; };
+		B7921891248A2CA0001F2ED6 /* VAB_eTokenUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7921890248A2CA0001F2ED6 /* VAB_eTokenUITests.swift */; };
+		B79218A8248DE879001F2ED6 /* PinCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79218A6248DE879001F2ED6 /* PinCellView.swift */; };
+		B79218A9248DE879001F2ED6 /* PinCellView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B79218A7248DE879001F2ED6 /* PinCellView.xib */; };
+		B79218AB248DE8D7001F2ED6 /* PinInputView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B79218AA248DE8D7001F2ED6 /* PinInputView.xib */; };
+		B79218AD248DEAB9001F2ED6 /* PinInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79218AC248DEAB9001F2ED6 /* PinInputView.swift */; };
+		B79218AF248F7335001F2ED6 /* ActiveController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79218AE248F7335001F2ED6 /* ActiveController.swift */; };
+		B79218B8248F741A001F2ED6 /* logo_vab.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B1248F741A001F2ED6 /* logo_vab.png */; };
+		B79218B9248F741A001F2ED6 /* qrcode.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B2248F741A001F2ED6 /* qrcode.png */; };
+		B79218BA248F741A001F2ED6 /* menu.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B3248F741A001F2ED6 /* menu.png */; };
+		B79218BB248F741A001F2ED6 /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B4248F741A001F2ED6 /* background.png */; };
+		B79218BD248F741A001F2ED6 /* etoken.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B6248F741A001F2ED6 /* etoken.png */; };
+		B79218BE248F741A001F2ED6 /* back.png in Resources */ = {isa = PBXBuildFile; fileRef = B79218B7248F741A001F2ED6 /* back.png */; };
+		B79218C0248F7A6B001F2ED6 /* FlatTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79218BF248F7A6B001F2ED6 /* FlatTextField.swift */; };
+		B79218C2248F879B001F2ED6 /* RadiusButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B79218C1248F879B001F2ED6 /* RadiusButton.swift */; };
+		B7B982CF24922394009478BB /* TransparentNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B982CE24922394009478BB /* TransparentNavBar.swift */; };
+		B7B982D124922439009478BB /* HomeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B982D024922439009478BB /* HomeController.swift */; };
+		B7B982E6249239E2009478BB /* UiComponents in Resources */ = {isa = PBXBuildFile; fileRef = B7B982E5249239E1009478BB /* UiComponents */; };
+		B7B982EB249284AE009478BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982EA249284AE009478BB /* Foundation.framework */; };
+		B7B982ED249284B9009478BB /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982EC249284B9009478BB /* SystemConfiguration.framework */; };
+		B7B982EF249284C4009478BB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982EE249284C4009478BB /* UIKit.framework */; };
+		B7B982F124928555009478BB /* LocalAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982F024928555009478BB /* LocalAuthentication.framework */; };
+		B7B982F32492860B009478BB /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982F22492860B009478BB /* AVFoundation.framework */; };
+		B7B982F52492861C009478BB /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982F42492861C009478BB /* CoreMedia.framework */; };
+		B7B982F724928626009478BB /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982F624928626009478BB /* Accelerate.framework */; };
+		B7B982F92492865E009478BB /* libc++.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982F82492865E009478BB /* libc++.1.dylib */; };
+		B7B982FD24928687009478BB /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = B7B982FC24928687009478BB /* libsqlite3.dylib */; };
+		B7B9830D249344AD009478BB /* GenericHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B9830C249344AD009478BB /* GenericHandler.swift */; };
+		B7B9831224964352009478BB /* Provisioning_Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9831024964352009478BB /* Provisioning_Logic.m */; };
+		B7B98315249650DE009478BB /* FakeAppData.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B98314249650DE009478BB /* FakeAppData.m */; };
+		B7B9831824965A7C009478BB /* ChangePin_Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9831624965A7C009478BB /* ChangePin_Logic.m */; };
+		B7B9831C24972D9A009478BB /* OTP_Logic.m in Sources */ = {isa = PBXBuildFile; fileRef = B7B9831A24972D9A009478BB /* OTP_Logic.m */; };
+		B7B9832024975C3B009478BB /* copy_icon.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B9831F24975C3B009478BB /* copy_icon.png */; };
+		B7B983222497D933009478BB /* MenuView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7B983212497D933009478BB /* MenuView.swift */; };
+		B7B983262499D5ED009478BB /* App 128x128 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B983232499D5ED009478BB /* App 128x128 1.png */; };
+		B7B983272499D5ED009478BB /* App 512x512 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B983242499D5ED009478BB /* App 512x512 1.png */; };
+		B7B983282499D5ED009478BB /* App 64x64 1.png in Resources */ = {isa = PBXBuildFile; fileRef = B7B983252499D5ED009478BB /* App 64x64 1.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B7921882248A2CA0001F2ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7921863248A2C9D001F2ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B792186A248A2C9E001F2ED6;
+			remoteInfo = "VAB eToken";
+		};
+		B792188D248A2CA0001F2ED6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B7921863248A2C9D001F2ED6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B792186A248A2C9E001F2ED6;
+			remoteInfo = "VAB eToken";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B7B982FB2492865E009478BB /* Embed Libraries */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Libraries";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B72D612B249B645900117D3D /* TabBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBaseViewController.swift; sourceTree = "<group>"; };
+		B72D612D24A1BF2F00117D3D /* QRScannerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QRScannerController.swift; sourceTree = "<group>"; };
+		B72D612F24A1C0AE00117D3D /* CameraFocusFinder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraFocusFinder.swift; sourceTree = "<group>"; };
+		B72D613124A1CED100117D3D /* EzioMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EzioMobile.framework; path = Release/EzioMobile.framework; sourceTree = "<group>"; };
+		B72D613624A1D30900117D3D /* EzioMobile */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = EzioMobile; path = Debug/EzioMobile.framework/Versions/5.2.0/EzioMobile; sourceTree = "<group>"; };
+		B7650DA52491DBEC0043D272 /* CreatePassController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePassController.swift; sourceTree = "<group>"; };
+		B7650DA72491DCBD0043D272 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		B7650DA92491DDA80043D272 /* ProgressView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressView.swift; sourceTree = "<group>"; };
+		B7650DAD2491EF4B0043D272 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		B7650DAF2491F4A60043D272 /* OtpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtpController.swift; sourceTree = "<group>"; };
+		B7650DB12491F5280043D272 /* NormalOtpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NormalOtpController.swift; sourceTree = "<group>"; };
+		B7650DB32491F5860043D272 /* SignatureOtpController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignatureOtpController.swift; sourceTree = "<group>"; };
+		B7650DB5249208C00043D272 /* clear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clear.png; sourceTree = "<group>"; };
+		B792186B248A2C9E001F2ED6 /* VAB eToken.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "VAB eToken.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B792186E248A2C9E001F2ED6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B7921872248A2C9E001F2ED6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B7921875248A2C9E001F2ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B7921877248A2CA0001F2ED6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B792187A248A2CA0001F2ED6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B792187C248A2CA0001F2ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7921881248A2CA0001F2ED6 /* VAB eTokenTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VAB eTokenTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7921885248A2CA0001F2ED6 /* VAB_eTokenTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAB_eTokenTests.swift; sourceTree = "<group>"; };
+		B7921887248A2CA0001F2ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B792188C248A2CA0001F2ED6 /* VAB eTokenUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "VAB eTokenUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B7921890248A2CA0001F2ED6 /* VAB_eTokenUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VAB_eTokenUITests.swift; sourceTree = "<group>"; };
+		B7921892248A2CA0001F2ED6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B79218A6248DE879001F2ED6 /* PinCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinCellView.swift; sourceTree = "<group>"; };
+		B79218A7248DE879001F2ED6 /* PinCellView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinCellView.xib; sourceTree = "<group>"; };
+		B79218AA248DE8D7001F2ED6 /* PinInputView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PinInputView.xib; sourceTree = "<group>"; };
+		B79218AC248DEAB9001F2ED6 /* PinInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinInputView.swift; sourceTree = "<group>"; };
+		B79218AE248F7335001F2ED6 /* ActiveController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveController.swift; sourceTree = "<group>"; };
+		B79218B1248F741A001F2ED6 /* logo_vab.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo_vab.png; sourceTree = "<group>"; };
+		B79218B2248F741A001F2ED6 /* qrcode.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = qrcode.png; sourceTree = "<group>"; };
+		B79218B3248F741A001F2ED6 /* menu.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = menu.png; sourceTree = "<group>"; };
+		B79218B4248F741A001F2ED6 /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		B79218B6248F741A001F2ED6 /* etoken.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = etoken.png; sourceTree = "<group>"; };
+		B79218B7248F741A001F2ED6 /* back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = back.png; sourceTree = "<group>"; };
+		B79218BF248F7A6B001F2ED6 /* FlatTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlatTextField.swift; sourceTree = "<group>"; };
+		B79218C1248F879B001F2ED6 /* RadiusButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RadiusButton.swift; sourceTree = "<group>"; };
+		B7B982CE24922394009478BB /* TransparentNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentNavBar.swift; sourceTree = "<group>"; };
+		B7B982D024922439009478BB /* HomeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeController.swift; sourceTree = "<group>"; };
+		B7B982E5249239E1009478BB /* UiComponents */ = {isa = PBXFileReference; lastKnownFileType = folder; path = UiComponents; sourceTree = "<group>"; };
+		B7B982EA249284AE009478BB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B7B982EC249284B9009478BB /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		B7B982EE249284C4009478BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B7B982F024928555009478BB /* LocalAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = LocalAuthentication.framework; path = System/Library/Frameworks/LocalAuthentication.framework; sourceTree = SDKROOT; };
+		B7B982F22492860B009478BB /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		B7B982F42492861C009478BB /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		B7B982F624928626009478BB /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		B7B982F82492865E009478BB /* libc++.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.1.dylib"; path = "../../../../../../usr/lib/libc++.1.dylib"; sourceTree = "<group>"; };
+		B7B982FC24928687009478BB /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
+		B7B982FF249286AC009478BB /* EzioMobile.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EzioMobile.framework; path = Debug/EzioMobile.framework; sourceTree = "<group>"; };
+		B7B9830524932488009478BB /* VAB eToken-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "VAB eToken-Bridging-Header.h"; sourceTree = "<group>"; };
+		B7B9830C249344AD009478BB /* GenericHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericHandler.swift; sourceTree = "<group>"; };
+		B7B9830F24964352009478BB /* Provisioning_Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Provisioning_Logic.h; sourceTree = "<group>"; };
+		B7B9831024964352009478BB /* Provisioning_Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Provisioning_Logic.m; sourceTree = "<group>"; };
+		B7B98313249650DE009478BB /* FakeAppData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FakeAppData.h; sourceTree = "<group>"; };
+		B7B98314249650DE009478BB /* FakeAppData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FakeAppData.m; sourceTree = "<group>"; };
+		B7B9831624965A7C009478BB /* ChangePin_Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangePin_Logic.m; sourceTree = "<group>"; };
+		B7B9831724965A7C009478BB /* ChangePin_Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangePin_Logic.h; sourceTree = "<group>"; };
+		B7B9831924972D9A009478BB /* OTP_Logic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OTP_Logic.h; sourceTree = "<group>"; };
+		B7B9831A24972D9A009478BB /* OTP_Logic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OTP_Logic.m; sourceTree = "<group>"; };
+		B7B9831F24975C3B009478BB /* copy_icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = copy_icon.png; sourceTree = "<group>"; };
+		B7B983212497D933009478BB /* MenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuView.swift; sourceTree = "<group>"; };
+		B7B983232499D5ED009478BB /* App 128x128 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App 128x128 1.png"; sourceTree = "<group>"; };
+		B7B983242499D5ED009478BB /* App 512x512 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App 512x512 1.png"; sourceTree = "<group>"; };
+		B7B983252499D5ED009478BB /* App 64x64 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "App 64x64 1.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B7921868248A2C9E001F2ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B72D613A24A1D4AE00117D3D /* EzioMobile.framework in Frameworks */,
+				B7B982F52492861C009478BB /* CoreMedia.framework in Frameworks */,
+				B7B982F724928626009478BB /* Accelerate.framework in Frameworks */,
+				B7B982F124928555009478BB /* LocalAuthentication.framework in Frameworks */,
+				B7B982EF249284C4009478BB /* UIKit.framework in Frameworks */,
+				B7B982FD24928687009478BB /* libsqlite3.dylib in Frameworks */,
+				B7B982F32492860B009478BB /* AVFoundation.framework in Frameworks */,
+				B7B982ED249284B9009478BB /* SystemConfiguration.framework in Frameworks */,
+				B7B982EB249284AE009478BB /* Foundation.framework in Frameworks */,
+				B7B982F92492865E009478BB /* libc++.1.dylib in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B792187E248A2CA0001F2ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7921889248A2CA0001F2ED6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B7650DA42491DBAA0043D272 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B7650DA72491DCBD0043D272 /* BaseViewController.swift */,
+				B79218AE248F7335001F2ED6 /* ActiveController.swift */,
+				B7650DA52491DBEC0043D272 /* CreatePassController.swift */,
+				B7650DAD2491EF4B0043D272 /* LoginController.swift */,
+				B7650DAF2491F4A60043D272 /* OtpController.swift */,
+				B7650DB12491F5280043D272 /* NormalOtpController.swift */,
+				B7650DB32491F5860043D272 /* SignatureOtpController.swift */,
+				B7B982D024922439009478BB /* HomeController.swift */,
+				B72D612B249B645900117D3D /* TabBaseViewController.swift */,
+				B72D612D24A1BF2F00117D3D /* QRScannerController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B7921862248A2C9D001F2ED6 = {
+			isa = PBXGroup;
+			children = (
+				B792186D248A2C9E001F2ED6 /* VAB eToken */,
+				B7921884248A2CA0001F2ED6 /* VAB eTokenTests */,
+				B792188F248A2CA0001F2ED6 /* VAB eTokenUITests */,
+				B792186C248A2C9E001F2ED6 /* Products */,
+				B7B982E9249284AD009478BB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B792186C248A2C9E001F2ED6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B792186B248A2C9E001F2ED6 /* VAB eToken.app */,
+				B7921881248A2CA0001F2ED6 /* VAB eTokenTests.xctest */,
+				B792188C248A2CA0001F2ED6 /* VAB eTokenUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B792186D248A2C9E001F2ED6 /* VAB eToken */ = {
+			isa = PBXGroup;
+			children = (
+				B7B982E5249239E1009478BB /* UiComponents */,
+				B7650DA42491DBAA0043D272 /* Controller */,
+				B79218B0248F7404001F2ED6 /* images */,
+				B792189F248A2D6C001F2ED6 /* logic */,
+				B792189E248A2D64001F2ED6 /* view */,
+				B792186E248A2C9E001F2ED6 /* AppDelegate.swift */,
+				B7921872248A2C9E001F2ED6 /* ViewController.swift */,
+				B7921874248A2C9E001F2ED6 /* Main.storyboard */,
+				B7921877248A2CA0001F2ED6 /* Assets.xcassets */,
+				B7921879248A2CA0001F2ED6 /* LaunchScreen.storyboard */,
+				B792187C248A2CA0001F2ED6 /* Info.plist */,
+			);
+			path = "VAB eToken";
+			sourceTree = "<group>";
+		};
+		B7921884248A2CA0001F2ED6 /* VAB eTokenTests */ = {
+			isa = PBXGroup;
+			children = (
+				B7921885248A2CA0001F2ED6 /* VAB_eTokenTests.swift */,
+				B7921887248A2CA0001F2ED6 /* Info.plist */,
+			);
+			path = "VAB eTokenTests";
+			sourceTree = "<group>";
+		};
+		B792188F248A2CA0001F2ED6 /* VAB eTokenUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B7921890248A2CA0001F2ED6 /* VAB_eTokenUITests.swift */,
+				B7921892248A2CA0001F2ED6 /* Info.plist */,
+			);
+			path = "VAB eTokenUITests";
+			sourceTree = "<group>";
+		};
+		B792189E248A2D64001F2ED6 /* view */ = {
+			isa = PBXGroup;
+			children = (
+				B7650DA92491DDA80043D272 /* ProgressView.swift */,
+				B79218A6248DE879001F2ED6 /* PinCellView.swift */,
+				B79218A7248DE879001F2ED6 /* PinCellView.xib */,
+				B79218AA248DE8D7001F2ED6 /* PinInputView.xib */,
+				B79218AC248DEAB9001F2ED6 /* PinInputView.swift */,
+				B79218BF248F7A6B001F2ED6 /* FlatTextField.swift */,
+				B79218C1248F879B001F2ED6 /* RadiusButton.swift */,
+				B7B982CE24922394009478BB /* TransparentNavBar.swift */,
+				B7B983212497D933009478BB /* MenuView.swift */,
+				B72D612F24A1C0AE00117D3D /* CameraFocusFinder.swift */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		B792189F248A2D6C001F2ED6 /* logic */ = {
+			isa = PBXGroup;
+			children = (
+				B7B9831924972D9A009478BB /* OTP_Logic.h */,
+				B7B9831A24972D9A009478BB /* OTP_Logic.m */,
+				B7B9831724965A7C009478BB /* ChangePin_Logic.h */,
+				B7B9831624965A7C009478BB /* ChangePin_Logic.m */,
+				B7B98313249650DE009478BB /* FakeAppData.h */,
+				B7B98314249650DE009478BB /* FakeAppData.m */,
+				B7B9830F24964352009478BB /* Provisioning_Logic.h */,
+				B7B9831024964352009478BB /* Provisioning_Logic.m */,
+				B7B9830524932488009478BB /* VAB eToken-Bridging-Header.h */,
+				B7B9830C249344AD009478BB /* GenericHandler.swift */,
+			);
+			path = logic;
+			sourceTree = "<group>";
+		};
+		B79218B0248F7404001F2ED6 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				B7B983252499D5ED009478BB /* App 64x64 1.png */,
+				B7B983232499D5ED009478BB /* App 128x128 1.png */,
+				B7B983242499D5ED009478BB /* App 512x512 1.png */,
+				B7B9831F24975C3B009478BB /* copy_icon.png */,
+				B7650DB5249208C00043D272 /* clear.png */,
+				B79218B7248F741A001F2ED6 /* back.png */,
+				B79218B4248F741A001F2ED6 /* background.png */,
+				B79218B6248F741A001F2ED6 /* etoken.png */,
+				B79218B1248F741A001F2ED6 /* logo_vab.png */,
+				B79218B3248F741A001F2ED6 /* menu.png */,
+				B79218B2248F741A001F2ED6 /* qrcode.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		B7B982E9249284AD009478BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B72D613624A1D30900117D3D /* EzioMobile */,
+				B7B982FF249286AC009478BB /* EzioMobile.framework */,
+				B72D613124A1CED100117D3D /* EzioMobile.framework */,
+				B7B982FC24928687009478BB /* libsqlite3.dylib */,
+				B7B982F82492865E009478BB /* libc++.1.dylib */,
+				B7B982F624928626009478BB /* Accelerate.framework */,
+				B7B982F42492861C009478BB /* CoreMedia.framework */,
+				B7B982F22492860B009478BB /* AVFoundation.framework */,
+				B7B982F024928555009478BB /* LocalAuthentication.framework */,
+				B7B982EE249284C4009478BB /* UIKit.framework */,
+				B7B982EC249284B9009478BB /* SystemConfiguration.framework */,
+				B7B982EA249284AE009478BB /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B792186A248A2C9E001F2ED6 /* VAB eToken */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7921895248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eToken" */;
+			buildPhases = (
+				B7921867248A2C9E001F2ED6 /* Sources */,
+				B7921868248A2C9E001F2ED6 /* Frameworks */,
+				B7921869248A2C9E001F2ED6 /* Resources */,
+				B7B982FB2492865E009478BB /* Embed Libraries */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "VAB eToken";
+			productName = "VAB eToken";
+			productReference = B792186B248A2C9E001F2ED6 /* VAB eToken.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B7921880248A2CA0001F2ED6 /* VAB eTokenTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B7921898248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eTokenTests" */;
+			buildPhases = (
+				B792187D248A2CA0001F2ED6 /* Sources */,
+				B792187E248A2CA0001F2ED6 /* Frameworks */,
+				B792187F248A2CA0001F2ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B7921883248A2CA0001F2ED6 /* PBXTargetDependency */,
+			);
+			name = "VAB eTokenTests";
+			productName = "VAB eTokenTests";
+			productReference = B7921881248A2CA0001F2ED6 /* VAB eTokenTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B792188B248A2CA0001F2ED6 /* VAB eTokenUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B792189B248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eTokenUITests" */;
+			buildPhases = (
+				B7921888248A2CA0001F2ED6 /* Sources */,
+				B7921889248A2CA0001F2ED6 /* Frameworks */,
+				B792188A248A2CA0001F2ED6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B792188E248A2CA0001F2ED6 /* PBXTargetDependency */,
+			);
+			name = "VAB eTokenUITests";
+			productName = "VAB eTokenUITests";
+			productReference = B792188C248A2CA0001F2ED6 /* VAB eTokenUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B7921863248A2C9D001F2ED6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = "Pham Huy";
+				TargetAttributes = {
+					B792186A248A2C9E001F2ED6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					B7921880248A2CA0001F2ED6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B792186A248A2C9E001F2ED6;
+					};
+					B792188B248A2CA0001F2ED6 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = B792186A248A2C9E001F2ED6;
+					};
+				};
+			};
+			buildConfigurationList = B7921866248A2C9D001F2ED6 /* Build configuration list for PBXProject "VAB eToken" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B7921862248A2C9D001F2ED6;
+			productRefGroup = B792186C248A2C9E001F2ED6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B792186A248A2C9E001F2ED6 /* VAB eToken */,
+				B7921880248A2CA0001F2ED6 /* VAB eTokenTests */,
+				B792188B248A2CA0001F2ED6 /* VAB eTokenUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B7921869248A2C9E001F2ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7B983262499D5ED009478BB /* App 128x128 1.png in Resources */,
+				B79218BA248F741A001F2ED6 /* menu.png in Resources */,
+				B79218B9248F741A001F2ED6 /* qrcode.png in Resources */,
+				B792187B248A2CA0001F2ED6 /* LaunchScreen.storyboard in Resources */,
+				B7650DB6249208C00043D272 /* clear.png in Resources */,
+				B79218AB248DE8D7001F2ED6 /* PinInputView.xib in Resources */,
+				B79218B8248F741A001F2ED6 /* logo_vab.png in Resources */,
+				B7921878248A2CA0001F2ED6 /* Assets.xcassets in Resources */,
+				B7B983282499D5ED009478BB /* App 64x64 1.png in Resources */,
+				B79218A9248DE879001F2ED6 /* PinCellView.xib in Resources */,
+				B79218BE248F741A001F2ED6 /* back.png in Resources */,
+				B79218BD248F741A001F2ED6 /* etoken.png in Resources */,
+				B79218BB248F741A001F2ED6 /* background.png in Resources */,
+				B7B9832024975C3B009478BB /* copy_icon.png in Resources */,
+				B7921876248A2C9E001F2ED6 /* Main.storyboard in Resources */,
+				B7B983272499D5ED009478BB /* App 512x512 1.png in Resources */,
+				B7B982E6249239E2009478BB /* UiComponents in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B792187F248A2CA0001F2ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B792188A248A2CA0001F2ED6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7921867248A2C9E001F2ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7650DB22491F5280043D272 /* NormalOtpController.swift in Sources */,
+				B79218AD248DEAB9001F2ED6 /* PinInputView.swift in Sources */,
+				B7650DAE2491EF4B0043D272 /* LoginController.swift in Sources */,
+				B7B9831224964352009478BB /* Provisioning_Logic.m in Sources */,
+				B79218C2248F879B001F2ED6 /* RadiusButton.swift in Sources */,
+				B72D612E24A1BF2F00117D3D /* QRScannerController.swift in Sources */,
+				B7921873248A2C9E001F2ED6 /* ViewController.swift in Sources */,
+				B792186F248A2C9E001F2ED6 /* AppDelegate.swift in Sources */,
+				B7B983222497D933009478BB /* MenuView.swift in Sources */,
+				B7650DB02491F4A60043D272 /* OtpController.swift in Sources */,
+				B79218C0248F7A6B001F2ED6 /* FlatTextField.swift in Sources */,
+				B72D612C249B645900117D3D /* TabBaseViewController.swift in Sources */,
+				B7B9831C24972D9A009478BB /* OTP_Logic.m in Sources */,
+				B7B9831824965A7C009478BB /* ChangePin_Logic.m in Sources */,
+				B7B982D124922439009478BB /* HomeController.swift in Sources */,
+				B7B9830D249344AD009478BB /* GenericHandler.swift in Sources */,
+				B7650DA82491DCBD0043D272 /* BaseViewController.swift in Sources */,
+				B7B98315249650DE009478BB /* FakeAppData.m in Sources */,
+				B79218A8248DE879001F2ED6 /* PinCellView.swift in Sources */,
+				B7650DA62491DBEC0043D272 /* CreatePassController.swift in Sources */,
+				B7650DB42491F5860043D272 /* SignatureOtpController.swift in Sources */,
+				B72D613024A1C0AE00117D3D /* CameraFocusFinder.swift in Sources */,
+				B79218AF248F7335001F2ED6 /* ActiveController.swift in Sources */,
+				B7B982CF24922394009478BB /* TransparentNavBar.swift in Sources */,
+				B7650DAB2491DDA80043D272 /* ProgressView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B792187D248A2CA0001F2ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7921886248A2CA0001F2ED6 /* VAB_eTokenTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B7921888248A2CA0001F2ED6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7921891248A2CA0001F2ED6 /* VAB_eTokenUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B7921883248A2CA0001F2ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B792186A248A2C9E001F2ED6 /* VAB eToken */;
+			targetProxy = B7921882248A2CA0001F2ED6 /* PBXContainerItemProxy */;
+		};
+		B792188E248A2CA0001F2ED6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B792186A248A2C9E001F2ED6 /* VAB eToken */;
+			targetProxy = B792188D248A2CA0001F2ED6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B7921874248A2C9E001F2ED6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B7921875248A2C9E001F2ED6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B7921879248A2CA0001F2ED6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B792187A248A2CA0001F2ED6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B7921893248A2CA0001F2ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B7921894248A2CA0001F2ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B7921896248A2CA0001F2ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Debug",
+					"$(PROJECT_DIR)/Release",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "VAB eToken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Debug/EzioMobile.framework/Versions/5.2.0",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eToken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VAB eToken/logic/VAB eToken-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B7921897248A2CA0001F2ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(PROJECT_DIR)/Release",
+					"$(PROJECT_DIR)/Debug",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = NO;
+				GCC_PREFIX_HEADER = "";
+				INFOPLIST_FILE = "VAB eToken/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Debug/EzioMobile.framework/Versions/5.2.0",
+				);
+				MARKETING_VERSION = 1.0.1;
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eToken";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "VAB eToken/logic/VAB eToken-Bridging-Header.h";
+				SWIFT_OBJC_INTERFACE_HEADER_NAME = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		B7921899248A2CA0001F2ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				INFOPLIST_FILE = "VAB eTokenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eTokenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAB eToken.app/VAB eToken";
+			};
+			name = Debug;
+		};
+		B792189A248A2CA0001F2ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				INFOPLIST_FILE = "VAB eTokenTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eTokenTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/VAB eToken.app/VAB eToken";
+			};
+			name = Release;
+		};
+		B792189C248A2CA0001F2ED6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				INFOPLIST_FILE = "VAB eTokenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eTokenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VAB eToken";
+			};
+			name = Debug;
+		};
+		B792189D248A2CA0001F2ED6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2H27N562KD;
+				INFOPLIST_FILE = "VAB eTokenUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "pqh.vn.pliz.etoken.VAB-eTokenUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "VAB eToken";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B7921866248A2C9D001F2ED6 /* Build configuration list for PBXProject "VAB eToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7921893248A2CA0001F2ED6 /* Debug */,
+				B7921894248A2CA0001F2ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7921895248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eToken" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7921896248A2CA0001F2ED6 /* Debug */,
+				B7921897248A2CA0001F2ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B7921898248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eTokenTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B7921899248A2CA0001F2ED6 /* Debug */,
+				B792189A248A2CA0001F2ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B792189B248A2CA0001F2ED6 /* Build configuration list for PBXNativeTarget "VAB eTokenUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B792189C248A2CA0001F2ED6 /* Debug */,
+				B792189D248A2CA0001F2ED6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B7921863248A2C9D001F2ED6 /* Project object */;
+}

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "774A8E72-58F4-4BA2-9B99-63CEB2BE2DBF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3D1A3CD3-C2A2-445A-96CB-4C84BCDA74A3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VAB eToken/Controller/TabBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "203"
+            endingLineNumber = "203"
+            landmarkName = "onCreateMenu()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E69875FD-F862-4263-A5C8-D525A1C35E10"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "VAB eToken/Controller/TabBaseViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "207"
+            endingLineNumber = "207"
+            landmarkName = "onMenuItemSelect(item:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E69875FD-F862-4263-A5C8-D525A1C35E10 - 8994c6911250b14b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VAB_eToken.TabBaseViewController.onMenuItemSelect(item: VAB_eToken.MenuItem) -&gt; ()"
+                  moduleName = "VAB eToken"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhuy/Desktop/MobileBanking/IOS/VAB%20eToken/VAB%20eToken/Controller/TabBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "100">
+               </Location>
+               <Location
+                  uuid = "E69875FD-F862-4263-A5C8-D525A1C35E10 - 8994c6911250b14b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VAB_eToken.TabBaseViewController.onMenuItemSelect(item: VAB_eToken.MenuItem) -&gt; ()"
+                  moduleName = "VAB eToken"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhuy/Desktop/MobileBanking/IOS/VAB%20eToken/VAB%20eToken/Controller/TabBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "120">
+               </Location>
+               <Location
+                  uuid = "E69875FD-F862-4263-A5C8-D525A1C35E10 - 8994c6911250b14b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "VAB_eToken.TabBaseViewController.onMenuItemSelect(item: VAB_eToken.MenuItem) -&gt; ()"
+                  moduleName = "VAB eToken"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/phamhuy/Desktop/MobileBanking/IOS/VAB%20eToken/VAB%20eToken/Controller/TabBaseViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "207"
+                  endingLineNumber = "207"
+                  offsetFromSymbolStart = "164">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

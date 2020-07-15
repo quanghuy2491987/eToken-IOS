@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "BaseViewController.setRightButtonIcon():BaseViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationItem.leftBarButtonItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MenuView.tableView(_:cellForRowAt:):MenuView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseViewController.openViewControllerBasedOnIdentifier(_:_:_:):BaseViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController?.topViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.appDelegate.window?.rootViewController">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseViewController.openMenu():BaseViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "PinInputView.initCollectionView():PinInputView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseViewController.viewDidAppear(_:):BaseViewController.swift">
+      </ContextState>
+      <ContextState
+         contextName = "BaseViewController.onBackButtonPressed(_:):BaseViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "navigationController">
+            </PersistentString>
+            <PersistentString
+               value = "navigationController?.topViewController">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController?.viewControllers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PinInputView.collectionView(_:layout:insetForSectionAt:):PinInputView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "MenuView.tableView(_:willDisplay:forRowAt:):MenuView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "items?.count">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PinInputView.collectionView(_:layout:sizeForItemAt:):PinInputView.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "collectionView.frame.height">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "BaseViewController.setBackButtonIcon():BaseViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.navigationItem.leftBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "UIApplication.shared.keyWindow?.rootViewController">
+            </PersistentString>
+            <PersistentString
+               value = "moreButton.imageView?.bounds">
+            </PersistentString>
+            <PersistentString
+               value = "backButton.imageEdgeInsets">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationItem.leftBarButtonItem?.customView?.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationController?.viewControllers">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationItem.backBarButtonItem">
+            </PersistentString>
+            <PersistentString
+               value = "moreButton.imageView?.frame">
+            </PersistentString>
+            <PersistentString
+               value = "self.navigationItem">
+            </PersistentString>
+            <PersistentString
+               value = " navController?.navigationItem">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "PinInputView.delChar():PinInputView.swift">
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
